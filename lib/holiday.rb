@@ -44,11 +44,15 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
+  answer = []
   holiday_hash.each do |season, data|
     puts "#{season.capitalize}:"
     data.each do |holiday, data|
-      puts "  #{holiday.capitalize}: #{holiday.values}"
+      holiday.each do |x|
+        answer << x
+      end
     end
+      puts "  #{holiday.capitalize}: #{answer}"
   end
 end
 
