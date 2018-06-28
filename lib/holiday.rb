@@ -45,8 +45,8 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
     puts "Winter:"
-    puts "  Christmas: #{holiday_hash[:winter][:christmas].join (" , ")}"
-    puts "  New Years: #{holiday_hash[:winter][:new_years].join (" , ")}"
+    puts "  Christmas: #{holiday_hash[:winter][:christmas].join (", ")}"
+    puts "  New Years: #{holiday_hash[:winter][:new_years].join (", ")}"
 end
 
 def all_holidays_with_bbq(holiday_hash)
