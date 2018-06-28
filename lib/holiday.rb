@@ -44,12 +44,9 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.each do |season, data|
-    puts "#{season.capitalize}:"
-    data.each do |holiday, data|
-      puts "  #{holiday.capitalize}: #{data.join(", ")}"
-    end
-  end
+    puts "Winter:"
+    puts "  Christmas: #{holiday_hash[:winter][:christmas].join (" , ")}"
+    puts "  New Years: #{holiday_hash[:winter][:new_years].join (" , ")}"
 end
 
 def all_holidays_with_bbq(holiday_hash)
