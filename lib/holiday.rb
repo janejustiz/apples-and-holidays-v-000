@@ -52,7 +52,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "Fall:"
     puts "  Thanksgiving: #{holiday_hash[:fall][:thanksgiving].join (", ")}"
     puts "Spring:"
-    puts "  memorial_day: #{holiday_hash[:spring][:memorial_day].join (", ")}"
+    puts "  Memorial Day: #{holiday_hash[:spring][:memorial_day].join (", ")}"
 end
 
 def all_holidays_with_bbq(holiday_hash)
