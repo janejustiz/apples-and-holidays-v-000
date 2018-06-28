@@ -45,10 +45,10 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, data|
-    season
+    puts season
     data.each do |holiday, data|
-      holiday
-      data
+      puts holiday
+      puts data
     end
   end
 end
