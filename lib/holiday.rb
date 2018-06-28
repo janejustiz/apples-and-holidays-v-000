@@ -48,7 +48,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "  Christmas: #{holiday_hash[:winter][:christmas].join (", ")}"
     puts "  New Years: #{holiday_hash[:winter][:new_years].join (", ")}"
     puts "Summer:"
-    puts "  Fourth of July: #{holiday_hash[:summer][:fourth_of_july].join (", ")}"
+    puts "  Fourth Of July: #{holiday_hash[:summer][:fourth_of_july].join (", ")}"
     puts "Fall:"
     puts "  Thanksgiving: #{holiday_hash[:fall][:thanksgiving].join (", ")}"
     puts "Spring:"
